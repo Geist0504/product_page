@@ -57,5 +57,10 @@ body {
 
 .logo{
   max-width: 5em;
+  max-height: 5em;
   border-radius: 50%;
+}
+
+#nav-bar{
+  display: inline-flex;
 }
