@@ -11,24 +11,27 @@
 <body>
 	<header id = "header">
 		<nav id = "nav-bar">
-		<!-- Need to add header img -->
-			<img class="logo" src="https://cdn.the-scientist.com/assets/articleNo/64325/iImg/26784/78c33a06-5e9b-409c-b883-1ce4a286749d-crispr-full.jpg" id="header-img"> 
-			<h1 id="title">Buy Our Products!</h1>
-			<a class="nav-link" href="#kit">KIT-SPER</a>
+			<div class="logo">
+				<img class="logo-img" src="https://cdn.the-scientist.com/assets/articleNo/64325/iImg/26784/78c33a06-5e9b-409c-b883-1ce4a286749d-crispr-full.jpg" id="header-img"> 
+				<h2 id="title">Buy Our Products!</h2>
+			</div>
+		<div class = "links">
+			<a class="nav-link" href="#copy">KIT-SPER</a>
 			<a class="nav-link" href="#video">How It Works</a>
 			<a class="nav-link" href="#purchase">Purchase a Kit</a>
+		</div>
 		</nav>
 	</header>
-	<div>
-		<form id="form">
-			<input id="email" type="" name="">
-			<input id="submit" type="" name="">
+	<div class="content">
+		<form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+			<h1>Be the you you've always wanted</h1>
+			<input id="email" type="text" name="user_email" placeholder="enter your email">
+			<input class="button" type="submit" name="submit">
 		</form>
-		<div class="kit"></div>
-		<div class="video">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/4YKFw2KZA5o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		<div id="copy"></div>
+		<div id="video" class="video"> <iframe width="560" height="315" src="https://www.youtube.com/embed/4YKFw2KZA5o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 		</div>
-		<div class="purchase"></div>
+		<div id="purchase"></div>
 	</div>
 	
 	<footer>

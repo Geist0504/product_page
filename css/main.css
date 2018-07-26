@@ -54,13 +54,66 @@ body {
   height: 100%; /* needed for container min-height */
 }
 
+header{
+  min-height: 6em;
+}
 
-.logo{
-  max-width: 5em;
-  max-height: 5em;
+
+.logo-img{
+  width: 5em;
+  height: 5em;
   border-radius: 50%;
+  margin-right: .5em;
 }
 
 #nav-bar{
-  display: inline-flex;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  top:0;
+  width: 100%;
+  position: fixed;
+  background-color: blue;
+  min-height: 6em; 
+}
+
+.logo{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: auto;
+}
+
+.links{
+  align-items: center;
+}
+.links * {
+  margin-right: .5em; 
+}
+
+.content{
+  text-align: center;
+  height: 2000px;
+}
+
+#form{
+  margin: auto;
+  padding: 3em; 
+  text-align: center;
+}
+
+#form * {
+  margin-bottom: 1rem;
+}
+
+#email{
+  width: 14em;
+  color: gray;
+}
+.button{
+  background-color: red;
+  font-size: 1.25rem;
+  display:block;
+  margin:0 auto;
+  border-radius: 5px;
 }
