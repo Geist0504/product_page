@@ -1,4 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+
 
 /* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
   License: none (public domain)
@@ -50,12 +54,16 @@ html,
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Raleway', Helvetica, sans-serif;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
   height: 100%; /* needed for container min-height */
 }
 
 header{
   min-height: 6em;
+}
+
+h1, h2{
+  font-family: 'Playfair Display';
 }
 
 
@@ -73,7 +81,7 @@ header{
   top:0;
   width: 100%;
   position: fixed;
-  background-color: blue;
+  background-color: #ABA6BF;
   min-height: 6em; 
 }
 
@@ -89,11 +97,20 @@ header{
 }
 .links * {
   margin-right: .5em; 
+  text-decoration: none;
+}
+
+.links a:link{
+  color: black;
+}
+.links a:visited{
+  color: black;
 }
 
 .content{
   text-align: center;
   height: 2000px;
+  background-color: #F1E0D6;
 }
 
 #form{
