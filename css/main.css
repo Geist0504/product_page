@@ -59,11 +59,19 @@ body {
 }
 
 header{
-  min-height: 6em;
+  min-height: 6rem;
 }
 
 h1, h2{
   font-family: 'Playfair Display';
+}
+
+h2{
+  font-size: 1.25rem;
+}
+
+h1{
+  font-size: 1.75rem;
 }
 
 
@@ -90,10 +98,12 @@ h1, h2{
   justify-content: flex-start;
   align-items: center;
   margin-right: auto;
+  padding-left: 1.5rem;
 }
 
 .links{
   align-items: center;
+  padding-right: 2rem;
 }
 .links * {
   margin-right: .5em; 
@@ -109,7 +119,6 @@ h1, h2{
 
 .content{
   text-align: center;
-  height: 2000px;
   background-color: #F1E0D6;
 }
 
@@ -117,6 +126,7 @@ h1, h2{
   margin: auto;
   padding: 3em; 
   text-align: center;
+  padding-bottom: 2em;
 }
 
 #form * {
@@ -128,9 +138,46 @@ h1, h2{
   color: gray;
 }
 .button{
-  background-color: red;
-  font-size: 1.25rem;
-  display:block;
+  background-color: #583E2E;
+  font-size: .9rem;
+  display: block;
+  width: 6rem;
+  height: 1.75rem;
   margin:0 auto;
   border-radius: 5px;
+  color: white;
+}
+
+#copy{
+  padding-bottom: 2rem; 
+  text-align: left;
+}
+
+.fas{
+  display: inline-block;
+  padding-left: 2em;
+  padding-right: 1.25em;
+  color: #583E2E;
+}
+
+.fa-shipping-fast{
+  padding-left: 1.75em;
+  padding-right: 1.15em;
+}
+
+.segment{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 5em;
+  padding-bottom: 2.25rem;
+}
+
+.purchase-option{
+  width: 30%;
+  border: 1px solid black;
+}
+
+.purchase-option h3{
+  background-color: green;
 }
