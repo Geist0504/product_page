@@ -74,7 +74,6 @@ h1{
   font-size: 1.75rem;
 }
 
-
 .logo-img{
   width: 5em;
   height: 5em;
@@ -104,9 +103,16 @@ h1{
 .links{
   align-items: center;
   padding-right: 2rem;
+  font-size: 1.1rem;
+}
+
+@media (min-width:480px){
+  .links{
+    padding-right: 1rem;
+  }
 }
 .links * {
-  margin-right: .5em; 
+  margin-right: .75em; 
   text-decoration: none;
 }
 
@@ -134,8 +140,10 @@ h1{
 }
 
 #email{
-  width: 14em;
+  width: 20em;
   color: gray;
+  height: 1.1rem;
+  padding-left: .3rem;
 }
 .button{
   background-color: #583E2E;
@@ -157,7 +165,7 @@ h1{
   display: inline-block;
   padding-left: 2em;
   padding-right: 1.25em;
-  color: #583E2E;
+  color: #595775;
 }
 
 .fa-shipping-fast{
@@ -173,11 +181,39 @@ h1{
   padding-bottom: 2.25rem;
 }
 
+.segment h1{
+  padding-bottom: .5rem;
+}
+
+#purchase{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 4rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  padding-bottom: 7rem;
+}
+
 .purchase-option{
   width: 30%;
   border: 1px solid black;
+  margin-right: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.purchase-option .button{
+  margin-top: 1rem;
 }
 
 .purchase-option h3{
-  background-color: green;
+  font-size: 1.5rem;
+  background-color: #ABA6BF;
+  padding: .3rem;
+  margin-bottom: 1rem;
+}
+
+.purchase-option p{
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: .5rem;
 }
