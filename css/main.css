@@ -217,3 +217,13 @@ h1{
   padding-right: 2rem;
   padding-bottom: .5rem;
 }
+
+#video {
+    padding-top: 100px;
+    margin-top: -100px;
+}
+
+#copy {
+    padding-top: 100px;
+    margin-top: -100px;
+}
